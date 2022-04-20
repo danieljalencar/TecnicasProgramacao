@@ -1,0 +1,144 @@
+Microsoft Windows [versão 10.0.19042.1526]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\autologon>git --version
+git version 2.35.3.windows.1
+
+C:\Users\autologon>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 060E-CE12
+
+ Pasta de C:\Users\autologon
+
+19/04/2022  16:34    <DIR>          .
+19/04/2022  16:34    <DIR>          ..
+19/04/2022  16:34    <DIR>          .vscode
+19/04/2022  15:55    <DIR>          3D Objects
+19/04/2022  15:55    <DIR>          Contacts
+19/04/2022  19:37    <DIR>          Desktop
+19/04/2022  18:37    <DIR>          Documents
+19/04/2022  19:36    <DIR>          Downloads
+19/04/2022  15:55    <DIR>          Favorites
+19/04/2022  15:55    <DIR>          Links
+19/04/2022  15:55    <DIR>          Music
+19/04/2022  15:56    <DIR>          OneDrive
+19/04/2022  15:56    <DIR>          Pictures
+19/04/2022  15:55    <DIR>          Saved Games
+19/04/2022  15:56    <DIR>          Searches
+19/04/2022  15:55    <DIR>          Videos
+               0 arquivo(s)              0 bytes
+              16 pasta(s)   173.216.894.976 bytes disponíveis
+
+C:\Users\autologon>cd documents
+
+C:\Users\autologon\Documents>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 060E-CE12
+
+ Pasta de C:\Users\autologon\Documents
+
+19/04/2022  18:37    <DIR>          .
+19/04/2022  18:37    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)   173.216.784.384 bytes disponíveis
+
+C:\Users\autologon\Documents>git clone https://github.com/1441-Daniel/ProjetoAula.git
+Cloning into 'ProjetoAula'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+C:\Users\autologon\Documents>cd ProjetoAula
+
+C:\Users\autologon\Documents\ProjetoAula>npm - v
+Unknown command: "-"
+
+To see a list of supported npm commands, run:
+  npm help
+
+C:\Users\autologon\Documents\ProjetoAula>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+version: (1.0.0)
+description: Projeto da Aula de
+entry point: (index.js)
+test command:
+git repository: (https://github.com/1441-Daniel/ProjetoAula.git)
+keywords: aula, node, npm
+author: Daniel
+license: (ISC)
+About to write to C:\Users\autologon\Documents\ProjetoAula\package.json:
+
+{
+  "name": "projetoaula",
+  "version": "1.0.0",
+  "description": "Projeto da Aula de ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1441-Daniel/ProjetoAula.git"
+  },
+  "keywords": [
+    "aula",
+    "node",
+    "npm"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1441-Daniel/ProjetoAula/issues"
+  },
+  "homepage": "https://github.com/1441-Daniel/ProjetoAula#readme"
+}
+
+
+Is this OK? (yes)
+npm notice
+npm notice New minor version of npm available! 8.3.1 -> 8.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.7.0
+npm notice Run npm install -g npm@8.7.0 to update!
+npm notice
+
+C:\Users\autologon\Documents\ProjetoAula>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 060E-CE12
+
+ Pasta de C:\Users\autologon\Documents\ProjetoAula
+
+19/04/2022  19:52    <DIR>          .
+19/04/2022  19:52    <DIR>          ..
+19/04/2022  19:42               301 .gitignore
+19/04/2022  19:52               540 package.json
+19/04/2022  19:42                92 README.md
+               3 arquivo(s)            933 bytes
+               2 pasta(s)   173.217.304.576 bytes disponíveis
+
+C:\Users\autologon\Documents\ProjetoAula>git config --global user.email "121ads212@gmail.com"
+
+C:\Users\autologon\Documents\ProjetoAula>git config --global user.name "1441-Daniel"
+
+C:\Users\autologon\Documents\ProjetoAula>cd..
+
+C:\Users\autologon\Documents>git clone https://github.com/allasassis/Tecnicas-Programacao.git
+Cloning into 'Tecnicas-Programacao'...
+remote: Enumerating objects: 50, done.
+remote: Counting objects: 100% (50/50), done.
+remote: Compressing objects: 100% (45/45), done.
+remote: Total 50 (delta 15), reused 5 (delta 1), pack-reused 0
+Receiving objects: 100% (50/50), 16.08 KiB | 8.04 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+
+C:\Users\autologon\Documents>
